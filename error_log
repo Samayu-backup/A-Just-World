@@ -1,0 +1,1200 @@
+[09-Apr-2023 12:54:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:54:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:54:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:54:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:57:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:57:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:58:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:58:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:58:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:58:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[09-Apr-2023 12:58:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_param() on array in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php:70
+Stack trace:
+#0 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rsssl_scan->mixed_content_scan()
+#1 /home/manas/ajw.manas.works/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl/settings/settings.php(390): apply_filters()
+#3 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1181): rsssl_run_test()
+#4 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request()
+#5 /home/manas/ajw.manas.works/wp-includes/rest-api/class-wp-rest-server.php(442): WP_REST_Server->dispatch()
+#6 /home/manas/ajw.manas.works/wp-includes/rest-api.php(410): WP_REST_Server->serve_request()
+#7 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#8 /home/manas/ajw.manas.works/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/manas/ajw.manas.works/wp-includes/plugin.php(565): WP_Hook->do_action()
+#10 /home/manas/ajw.manas.works/wp-includes/class-wp.php(399): do_action_ref_array()
+#11 /home/manas/ajw.manas.works/wp-includes/class-wp.php(780): WP->parse_request()
+#12 /home/manas/ajw.manas.works/wp-includes/functions.php(1334): WP->main()
+#13 /home/manas/ajw.manas.works/wp-blog-header.php(16): wp()
+#14 /home/manas/ajw.manas.works/index.php(17): require('/home/manas/ajw...')
+#15 {main}
+  thrown in /home/manas/ajw.manas.works/wp-content/plugins/really-simple-ssl-pro/class-scan.php on line 70
+[27-Apr-2023 08:37:52 UTC] PHP Warning:  Module 'memcached' already loaded in Unknown on line 0
+[20-Jan-2024 14:39:18 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[20-Jan-2024 14:39:18 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[20-Jan-2024 14:39:18 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[20-Jan-2024 14:39:18 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 11:05:24 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 11:05:24 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 11:05:24 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 11:05:24 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 16:30:07 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 16:30:08 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 16:30:08 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[28-Jan-2024 16:30:08 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[03-Feb-2024 04:43:00 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[03-Feb-2024 04:43:00 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[03-Feb-2024 04:43:00 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[03-Feb-2024 04:43:00 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[05-Feb-2024 13:55:22 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[05-Feb-2024 13:55:22 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[05-Feb-2024 13:55:22 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[05-Feb-2024 13:55:22 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 13:05:26 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 13:05:26 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 13:05:26 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 13:05:26 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 18:33:20 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 18:33:20 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 18:33:20 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[10-Feb-2024 18:33:20 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[12-Feb-2024 04:31:23 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[12-Feb-2024 04:31:23 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[12-Feb-2024 04:31:23 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[12-Feb-2024 04:31:23 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[14-Feb-2024 17:35:34 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[14-Feb-2024 17:35:34 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[14-Feb-2024 17:35:34 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[14-Feb-2024 17:35:34 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 10:40:10 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 10:40:10 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 10:40:10 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 10:40:10 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 17:43:58 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 17:43:58 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 17:43:58 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[27-Mar-2024 17:43:58 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[07-Apr-2024 22:02:59 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/ajw/public_html/wp-settings.php on line 33
+[07-Apr-2024 22:02:59 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[07-Apr-2024 22:02:59 UTC] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home/ajw/public_html/wp-settings.php on line 33
+[07-Apr-2024 22:02:59 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ajw/public_html/wp-settings.php on line 33
+[16-Jun-2024 13:28:04 UTC] PHP Warning:  Error while sending QUERY packet. PID=11578 in /home/ajw/public_html/wp-includes/class-wpdb.php on line 2431
+[25-Jul-2024 12:07:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ajw/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/ajw/public_html/wp-settings.php on line 33
+[07-Aug-2024 18:38:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 18:38:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 18:38:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 18:38:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 19:40:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 19:40:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:10:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:10:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:10:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:10:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:10:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:10:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:10:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:10:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:10:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:10:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:10:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:10:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:48:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:48:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 21:48:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 21:48:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 22:35:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 22:35:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 23:07:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 23:07:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 23:12:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 23:12:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 23:12:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 23:12:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 23:12:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 23:12:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[07-Aug-2024 23:12:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[07-Aug-2024 23:12:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[08-Aug-2024 01:52:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[08-Aug-2024 01:52:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[08-Aug-2024 02:44:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[08-Aug-2024 02:44:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[08-Aug-2024 02:44:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/feed-rss2.php on line 8
+[08-Aug-2024 04:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[08-Aug-2024 04:22:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[08-Aug-2024 06:11:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[08-Aug-2024 06:11:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[08-Aug-2024 06:51:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[08-Aug-2024 06:51:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[08-Aug-2024 07:20:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1427
+[08-Aug-2024 07:20:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ajw/public_html/wp-content/themes/astra/functions.php:188) in /home/ajw/public_html/wp-includes/pluggable.php on line 1430
+[04-Sep-2024 22:37:26 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:29 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:30 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:32 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:33 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:34 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:34 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 23:12:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[04-Sep-2024 23:12:25 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:14 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:16 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:16 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:17 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:17 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:17 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:17 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:19 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:19 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:19 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:20 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 22:38:20 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 23:07:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[05-Sep-2024 23:07:23 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:33 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 23:01:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[06-Sep-2024 23:02:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:31 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:34 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:34 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 23:03:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[07-Sep-2024 23:04:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 23:03:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[08-Sep-2024 23:03:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 23:04:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[09-Sep-2024 23:04:19 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:16 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:17 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:22 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:22 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:22 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:23 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:23 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:23 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:23 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:24 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:24 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:24 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:25 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:25 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:52:26 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[10-Sep-2024 22:55:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 00:21:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 00:21:17 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 23:08:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[11-Sep-2024 23:08:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:25 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:28 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:28 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:31 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:32 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:33 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:33 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:36 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:36 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:36 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 23:02:26 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[12-Sep-2024 23:02:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 23:04:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[13-Sep-2024 23:04:26 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:03 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:03 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:03 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:03 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 23:04:32 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[14-Sep-2024 23:04:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 23:03:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[15-Sep-2024 23:03:26 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:35 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 23:01:46 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Sep-2024 23:01:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 23:07:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[17-Sep-2024 23:07:26 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 09:56:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ajw/public_html/wp-config.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ajw/public_html/wp-config.php on line 4
+[18-Sep-2024 22:37:32 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:37 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:41 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:50 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 23:01:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[18-Sep-2024 23:01:20 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:39 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:43 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:44 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:47 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 23:01:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[19-Sep-2024 23:01:23 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:37:51 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:03 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 23:03:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[20-Sep-2024 23:03:33 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:15 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:18 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:19 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:19 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:19 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:20 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:20 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:20 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:21 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:22 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:22 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:22 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 22:38:23 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 23:07:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[21-Sep-2024 23:07:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:37:54 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 23:02:31 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[22-Sep-2024 23:02:42 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:40 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:48 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:55 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 23:08:38 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[23-Sep-2024 23:08:49 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:37:53 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 23:08:22 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[24-Sep-2024 23:08:34 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:37:52 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:37:56 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:37:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:37:59 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:07 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:08 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 23:25:00 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[25-Sep-2024 23:25:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:37:58 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:01 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:01 UTC] PHP Warning:  Undefined array key "SERVER_NAME" in /home/ajw/public_html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(292) : eval()'d code on line 1
+[26-Sep-2024 22:38:02 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:02 UTC] PHP Warning:  Undefined array key "SERVER_NAME" in /home/ajw/public_html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(292) : eval()'d code on line 1
+[26-Sep-2024 22:38:04 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:05 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:05 UTC] PHP Warning:  Undefined array key "SERVER_NAME" in /home/ajw/public_html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(292) : eval()'d code on line 1
+[26-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:06 UTC] PHP Warning:  Undefined array key "SERVER_NAME" in /home/ajw/public_html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(292) : eval()'d code on line 1
+[26-Sep-2024 22:38:06 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:07 UTC] PHP Warning:  Undefined array key "SERVER_NAME" in /home/ajw/public_html/wp-content/plugins/insert-headers-and-footers/includes/class-wpcode-snippet-execute.php(292) : eval()'d code on line 1
+[26-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:09 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:10 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:11 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:12 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:13 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:14 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:14 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 22:38:14 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 23:10:45 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[26-Sep-2024 23:10:57 UTC] PHP Warning:  Module "memcached" is already loaded in Unknown on line 0
+[16-Oct-2024 09:44:29 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[17-Oct-2024 01:19:47 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[17-Oct-2024 01:19:48 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[12-Nov-2024 14:24:34 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[07-Dec-2024 14:22:42 UTC] PHP Fatal error:  Uncaught Exception: Failed to fetch QUIC.cloud whitelist cURL error 28: Resolving timed out after 5001 milliseconds in /home/ajw/public_html/wp-content/plugins/litespeed-cache/src/cloud.cls.php:1519
+Stack trace:
+#0 /home/ajw/public_html/wp-content/plugins/litespeed-cache/src/cloud.cls.php(1488): LiteSpeed\Cloud->_update_ips()
+#1 /home/ajw/public_html/wp-content/plugins/litespeed-cache/src/rest.cls.php(151): LiteSpeed\Cloud->is_from_cloud()
+#2 /home/ajw/public_html/wp-includes/rest-api/class-wp-rest-server.php(1259): LiteSpeed\REST->is_from_cloud(Object(WP_REST_Request))
+#3 /home/ajw/public_html/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/litespeed/v1/c...', Array, NULL)
+#4 /home/ajw/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /home/ajw/public_html/wp-includes/rest-api.php(449): WP_REST_Server->serve_request('/litespeed/v1/c...')
+#6 /home/ajw/public_html/wp-includes/cl in /home/ajw/public_html/wp-content/plugins/litespeed-cache/src/cloud.cls.php on line 1519
+[03-Jan-2025 23:00:14 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[03-Jan-2025 23:00:14 UTC] Cron unschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[03-Jan-2025 23:00:15 UTC] Cron reschedule event error for hook: rsssl_every_five_minutes_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[10-Feb-2025 11:01:10 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[10-Feb-2025 22:40:51 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[11-Feb-2025 11:45:34 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[11-Feb-2025 23:16:28 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[12-Feb-2025 12:47:08 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[12-Feb-2025 23:05:01 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[13-Feb-2025 11:32:22 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[13-Feb-2025 22:41:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[14-Feb-2025 12:28:24 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Feb-2025 00:20:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Feb-2025 18:40:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[16-Feb-2025 05:36:17 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[16-Feb-2025 12:00:42 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[16-Feb-2025 23:37:29 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[17-Feb-2025 10:57:56 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[17-Feb-2025 23:04:53 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[18-Feb-2025 11:07:49 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[18-Feb-2025 23:06:44 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[19-Feb-2025 13:38:56 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[19-Feb-2025 23:35:49 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[20-Feb-2025 11:14:46 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[20-Feb-2025 23:20:00 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[21-Feb-2025 11:03:57 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[21-Feb-2025 23:02:54 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[22-Feb-2025 11:07:51 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[22-Feb-2025 22:50:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[23-Feb-2025 11:17:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[23-Feb-2025 23:17:14 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[24-Feb-2025 11:21:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[24-Feb-2025 23:19:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[25-Feb-2025 11:39:34 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[26-Feb-2025 00:12:46 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[26-Feb-2025 11:18:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[26-Feb-2025 23:01:39 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[28-Feb-2025 02:34:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[28-Feb-2025 14:04:53 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[28-Feb-2025 22:52:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[01-Mar-2025 10:43:01 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[01-Mar-2025 23:52:42 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[02-Mar-2025 11:17:49 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[02-Mar-2025 23:45:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[03-Mar-2025 13:20:53 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[04-Mar-2025 00:30:55 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[04-Mar-2025 12:28:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[05-Mar-2025 00:04:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[05-Mar-2025 11:43:39 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[05-Mar-2025 23:02:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[06-Mar-2025 12:08:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[06-Mar-2025 23:31:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[07-Mar-2025 11:28:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[07-Mar-2025 23:00:36 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[08-Mar-2025 13:55:20 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[08-Mar-2025 22:50:55 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[09-Mar-2025 10:43:29 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[09-Mar-2025 23:05:14 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[10-Mar-2025 13:19:01 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[11-Mar-2025 02:36:48 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[11-Mar-2025 11:57:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[11-Mar-2025 23:37:12 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[12-Mar-2025 12:11:29 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[12-Mar-2025 23:15:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[13-Mar-2025 10:50:52 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[14-Mar-2025 00:22:00 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[14-Mar-2025 12:33:04 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Mar-2025 02:15:13 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Mar-2025 13:27:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Mar-2025 23:26:36 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[16-Mar-2025 14:20:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[17-Mar-2025 01:18:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[17-Mar-2025 12:04:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[17-Mar-2025 23:43:49 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[18-Mar-2025 11:27:30 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[18-Mar-2025 23:37:56 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[19-Mar-2025 12:07:28 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home/ajw/public_html/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[04-Apr-2025 06:00:53 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[04-Apr-2025 11:02:34 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[05-Apr-2025 01:25:16 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[05-Apr-2025 11:00:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[05-Apr-2025 14:32:55 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[05-Apr-2025 14:32:56 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[05-Apr-2025 22:46:12 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[05-Apr-2025 23:31:05 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[06-Apr-2025 10:48:55 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[06-Apr-2025 11:32:07 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[06-Apr-2025 11:32:13 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[06-Apr-2025 16:24:30 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[06-Apr-2025 16:24:30 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[06-Apr-2025 23:16:59 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[07-Apr-2025 01:53:51 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[07-Apr-2025 10:52:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[07-Apr-2025 15:48:53 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[07-Apr-2025 15:48:56 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[07-Apr-2025 16:33:42 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[07-Apr-2025 16:33:43 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[07-Apr-2025 22:41:47 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[08-Apr-2025 02:52:13 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[08-Apr-2025 10:58:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[08-Apr-2025 14:40:36 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[08-Apr-2025 14:40:37 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[08-Apr-2025 23:01:09 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[09-Apr-2025 11:04:52 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[09-Apr-2025 22:53:59 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[10-Apr-2025 10:41:13 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[10-Apr-2025 22:39:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[11-Apr-2025 11:59:19 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[11-Apr-2025 22:42:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[12-Apr-2025 10:59:06 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[12-Apr-2025 22:59:57 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[13-Apr-2025 10:44:20 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[13-Apr-2025 23:07:28 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[14-Apr-2025 11:07:22 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Apr-2025 00:25:56 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Apr-2025 10:39:53 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[15-Apr-2025 23:54:02 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[16-Apr-2025 03:23:26 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[16-Apr-2025 10:41:38 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[16-Apr-2025 22:48:55 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[17-Apr-2025 10:41:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[17-Apr-2025 22:39:43 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[18-Apr-2025 10:55:44 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[18-Apr-2025 08:32:10 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[18-Apr-2025 23:03:51 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[19-Apr-2025 10:44:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[19-Apr-2025 23:32:23 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[20-Apr-2025 10:38:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[20-Apr-2025 22:47:47 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[20-Apr-2025 21:13:26 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[21-Apr-2025 10:38:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[21-Apr-2025 22:45:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[22-Apr-2025 10:44:07 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[22-Apr-2025 22:44:46 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[22-Apr-2025 22:51:16 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php on line 34
+[23-Apr-2025 02:42:04 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[23-Apr-2025 11:01:02 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[23-Apr-2025 23:01:11 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[24-Apr-2025 11:08:55 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[24-Apr-2025 06:15:11 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[24-Apr-2025 23:20:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[25-Apr-2025 10:43:40 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[25-Apr-2025 22:43:37 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[26-Apr-2025 10:56:45 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[26-Apr-2025 22:42:22 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[26-Apr-2025 16:47:53 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[26-Apr-2025 16:47:53 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php on line 34
+[26-Apr-2025 16:49:54 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[26-Apr-2025 16:49:55 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php on line 34
+[27-Apr-2025 10:59:41 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[27-Apr-2025 23:10:25 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[28-Apr-2025 10:39:02 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[28-Apr-2025 04:50:55 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php on line 34
+[28-Apr-2025 22:40:59 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[29-Apr-2025 10:43:16 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[29-Apr-2025 22:38:57 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[30-Apr-2025 10:43:36 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[30-Apr-2025 22:45:44 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[01-May-2025 10:51:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[01-May-2025 23:04:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[02-May-2025 10:42:36 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[02-May-2025 22:49:12 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[02-May-2025 18:50:28 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[03-May-2025 10:48:57 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[03-May-2025 22:47:42 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[04-May-2025 10:42:26 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
+[04-May-2025 12:44:12 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[04-May-2025 14:15:50 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-settings.php on line 34
+[04-May-2025 14:16:16 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home3/cfnubnmy/public_html/ajustworld/wp-config.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/cfnubnmy/public_html/ajustworld/wp-config.php on line 7
+[04-May-2025 22:54:27 UTC] PHP Warning:  Undefined property: stdClass::$plugin in /home3/cfnubnmy/public_html/ajustworld/wp-admin/includes/class-wp-automatic-updater.php on line 228
